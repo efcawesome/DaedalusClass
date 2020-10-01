@@ -1,0 +1,3 @@
+displayName = Daedalus Class
+author = People
+version = 0.1
