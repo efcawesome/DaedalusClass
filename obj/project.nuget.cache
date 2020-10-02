@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sDJdOQZOvVUVkf2D3g9Hep3akBz7kF8yV6pvOeLOiz26zz+I2uZ8OmyICAZ6z9BkaB7ZfhivOIwvY2vCjYpg6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\efcaw\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\DaedalusClass\\DaedalusClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efcaw\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

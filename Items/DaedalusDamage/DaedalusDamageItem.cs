@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace PissAndShit.Items.DaedalusDamage
+namespace DaedalusClass.Items.DaedalusDamage
 {
     public abstract class DaedalusDamageItem : ModItem
     {

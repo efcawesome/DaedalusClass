@@ -1,7 +1,7 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 
-namespace PissAndShit.Items.DaedalusDamage
+namespace DaedalusClass.Items.DaedalusDamage
 {
     class DaedalusDamagePlayer : ModPlayer
     {

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PissAndShit.Items.DaedalusDamage
+namespace DaedalusClass.Items.DaedalusDamage
 {
     class DaedalusStormbowStormbow : DaedalusDamageItem
     {
@@ -23,7 +23,7 @@ namespace PissAndShit.Items.DaedalusDamage
             item.damage = 43;
             item.knockBack = 1.2f;
             item.maxStack = 1;
-            item.shoot = 91;
+            item.shoot = ProjectileID.HolyArrow;
             item.shootSpeed = 12.5f;
             item.rare = ItemRarityID.Green;
             item.crit = 4;
@@ -60,7 +60,7 @@ namespace PissAndShit.Items.DaedalusDamage
                 float num17 = num13 * num15;
                 float SpeedX = num16 + Main.rand.Next(-5, 6) * 0.02f;
                 float SpeedY = num17 + Main.rand.Next(-5, 6) * 0.02f;
-                Projectile.NewProjectile(vector2_1.X, vector2_1.Y, SpeedX, SpeedY, ModContent.ProjectileType<Projectiles.DaedalusStormbowStormbowDaedalusStormbow>(), damage, knockBack, Main.myPlayer, 0.0f, Main.rand.Next(5));
+                Projectile.NewProjectile(vector2_1.X, vector2_1.Y, SpeedX, SpeedY, ModContent.ProjectileType<DaedalusStormbowStormbowDaedalusStormbow>(), damage, knockBack, Main.myPlayer, 0.0f, Main.rand.Next(5));
             }
             return false;
         }

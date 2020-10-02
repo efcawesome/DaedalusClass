@@ -8,7 +8,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PissAndShit.Items.DaedalusDamage
+namespace DaedalusClass.Items.DaedalusDamage
 {
 	public class GalileoFury : DaedalusDamageItem
 	{
